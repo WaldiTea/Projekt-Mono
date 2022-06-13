@@ -1,0 +1,77 @@
+.wallet {
+  padding: 0;
+}
+.header-section {
+  background-color: var(--maincolor);
+  height: 20vh;
+  padding: 0 15px;
+}
+
+.wallet .wrapper-inner {
+  background-color: rgb(255, 255, 255);
+  margin-top: -50px;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+/*Total Balance*/
+.total-balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 90px 0;
+}
+
+.total-balance p {
+  margin-bottom: 12px;
+}
+
+.total-balance h3 {
+  margin-bottom: 50px;
+}
+
+/*Icon Buttons*/
+.total-balance article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+}
+
+.total-balance article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total-balance article div svg {
+  fill: var(--maincolor);
+
+}
+
+.total-balance .icon-wrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1.5px solid var(--maincolor);
+  margin-bottom: 10px ;
+}
+
+.total-balance .send-icon {
+  fill: rebeccapurple;
+  stroke: aqua;
+}
+
+.wallet .see-all-list{
+  display: none;
+}
+
+
+.wallet h4 span{
+  display: none;
+}
+
+.wallet .icon-wr{
+  width: 105px;
+}

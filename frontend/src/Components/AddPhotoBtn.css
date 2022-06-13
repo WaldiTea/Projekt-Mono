@@ -1,0 +1,26 @@
+.add-photo {
+  border: 2px dashed var(--inputborder);
+  border-radius: 8px;
+  padding: 5px 0;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  outline: 0;
+  opacity: 0;
+  user-select: none;
+}
+
+.add-photo svg {
+  fill: gray;
+  margin-right: 10px;
+}
+
+
+
+input[type="file"]{
+width: 10px;
+}

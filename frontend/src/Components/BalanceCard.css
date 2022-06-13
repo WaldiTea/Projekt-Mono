@@ -1,0 +1,56 @@
+.card-wrapper{
+    background-color: var(--maincolor);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0px 0 30px 0;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.245);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-wrapper svg {
+    fill: white;
+}
+
+.card-wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-wrapper h5 {
+    margin-bottom: 7px;
+}
+
+.card-wrapper-header svg {
+    height:  auto;
+    width: 20px;
+}
+
+.in-out{
+    display: flex;
+    justify-content: space-between;
+}
+
+.in-out svg {
+    background-color: rgba(255, 255, 255, 0.118);
+    padding: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.in-out p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.ausgaben{
+    float: right;
+}
+
+
+
+

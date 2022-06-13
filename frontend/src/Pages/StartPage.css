@@ -1,0 +1,52 @@
+.start-page {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-page {
+  padding: 0;
+}
+
+.space,
+.start-btn {
+  margin-bottom: 15px;
+}
+
+.start-btn {
+  width: 100%;
+}
+
+.start-img {
+  background: rgb(136, 152, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(136, 152, 255, 1) 0%,
+    rgba(43, 71, 252, 1) 100%
+  );
+  width: 100%;
+  position: relative;
+  border-radius: 0 0 30px 30px;
+  margin-bottom: 15px;
+  padding: 40px;
+}
+
+.person {
+  animation: Swingg 7s infinite ease-in-out;
+}
+
+.start-page h1 {
+  text-align: center;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.start-page p a {
+  color: var(--maincolor);
+}
+
+@keyframes Swingg {
+  0%, 100% {  transform: translateY(0px)    }
+  50%   {  transform: translateY(-20px) }
+}

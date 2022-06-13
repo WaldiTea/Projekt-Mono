@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap");
+
+:root {
+  --maincolor: #2b47fc;
+  --secondcolor: #8898ff;
+  --textcolor: rgb(25, 25, 25);
+  --inputtext: #666666;
+  --inputborder: #dddddd;
+  --Iconmenu: #aaaaaa;
+  --green: #00b495;
+  --red: #e4797f;
+  --lightgray: #fafafa;
+}
+
+/*VERLAUF BLAU*/
+
+/* background: rgb(136, 152, 255);
+background: linear-gradient(
+  180deg,
+  rgba(136, 152, 255, 1) 0%,
+  rgba(43, 71, 252, 1) 100%
+); */
+
+body {
+  font-family: Inter, Arial;
+  color: var(--textcolor);
+}
+
+main {
+  /* padding: 1px 15px; */
+  position: relative;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+/*Basic Style*/
+h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textcolor);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Button Style*/
+.btn-blue {
+  /* margin: 0 50px; */
+  padding: 20px 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(136, 152, 255, 1) 0%,
+    rgba(43, 71, 252, 1) 100%
+  );
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  display: flex;
+  border: none;
+  transition: all 0.2s;
+}
+
+/*From Style*/
+
+label {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: var(--inputtext);
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="datetime-local"],
+input[type="email"] {
+  height: 45px;
+  width: 100%;
+  padding: 17px;
+  border-radius: 8px;
+  border: 2px solid var(--inputborder);
+  color: var(--inputtext);
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+select{
+  height: 45px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 2px solid var(--inputborder);
+}
+.red {
+  color: var(--red);
+}
+.green {
+  color: var(--green);
+}
+.mb-5 {
+  margin-bottom: 15px;
+}
+
+
+
+.btn-blue:active {
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.303);
+}

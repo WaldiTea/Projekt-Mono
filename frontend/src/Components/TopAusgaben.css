@@ -1,0 +1,62 @@
+.ausgaben-list article:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.ausgaben-list article:nth-child(1) svg {
+  height: 21px;
+  width: 21px;
+}
+
+
+.ausgaben-list .list-item {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightgray);
+    padding: 10px ;
+    border-radius: 12px;
+}
+
+.list-icon-name {
+  display: flex;
+  align-items: center;
+}
+
+.list-item h5{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.ausgaben-list .icon-list{
+    height: 30px;
+    width: 30px;
+    background-color: var(--inputborder);
+    opacity: 0.8;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.ausgaben-list .list-body p{
+    color: white;
+}
+
+.ausgaben-list .icon-list h4 {
+    font-weight: 700;
+    color: white;
+}
+.ausgaben-list .icon-list h3{
+    color: var(--inputtext);
+}
+
+.ausgaben-list .betrag{
+   color: var(--red);
+}
+
+.ausgaben-list .list-item:active{
+    background-color: var(--maincolor);
+    color: white;
+}

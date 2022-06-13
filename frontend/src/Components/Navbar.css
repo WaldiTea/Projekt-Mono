@@ -1,0 +1,74 @@
+.navigation {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: 50;
+  max-width: 500px;
+  margin: auto;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 15px;
+}
+
+.navigation li {
+  margin: 0;
+}
+
+.plus-wrapper-icon svg {
+  height: 20px;
+  width: 20px;
+}
+
+.plus-wrapper-icon {
+  height: 50px;
+  width: 50px;
+  background-color: var(--maincolor);
+  fill: white;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* + - Button*/
+
+/*Activer state*/
+
+.active {
+  fill: var(--maincolor);
+}
+
+.plus-minus-wrapper {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.hidden{
+  display: none;
+  transition: all 1s ease;
+}
+
+.plus-btn,
+.minus-btn {
+  background-color: var(--green);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  fill: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.201);
+}
+
+.minus-btn {
+  background-color: var(--red);
+}
